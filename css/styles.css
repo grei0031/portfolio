@@ -1,0 +1,422 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* My stuff */
+
+html {
+    background-color: #504E26;
+  }
+  
+  body {
+    background: #504E26;
+    font-family: Arial, 'Hind', sans-serif;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+      font-size: 3.5rem;
+      font-weight: bold;
+      text-align: center;
+      color: #F68B1F;
+      margin: 2rem;
+  }
+  
+  h2 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #F68B1F;
+    padding: 15px;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+    color: #F68B1F;
+    padding: 5px;
+  }
+  
+  .carousel {
+    padding: 1rem;
+    width: ;
+  }
+
+
+  p {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    text-align: left;
+    font-size: 1.25rem;
+    padding: 1rem;
+    color: black;
+    border-radius: 5px;
+    background-color: #B06B29;
+  }
+
+
+  button {
+    background-color: #AA1F24;
+    color: #F68B1F;
+    padding: .25rem 2rem ;
+    border: 2px solid black;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: flex;
+    margin: 1rem auto;
+  }
+
+  button:hover {
+    background-color: #EC1C24;
+  }
+
+  .maintitle{
+    margin-top: 1rem;
+  }
+
+  /* nav styles */ 
+  
+  nav{
+    margin: auto;
+    padding: 1rem;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+     }
+      
+    nav li {
+    display: inline;
+    }
+      
+    nav a {
+    border: 3px solid black;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: #F68B1F;
+    background-color: #AA1F24;
+    padding: .5rem 1.5rem;
+    justify-content:space-between;
+    }
+
+    nav a:hover {
+    background-color: #EC1C24;
+    color: #FDBB40;
+    }
+
+hr {
+margin-top: 2rem;
+border: 2px solid black;
+}
+
+.skip-links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .skip-links a{
+    position: absolute;
+    top: -2em;
+    background-color: navy;
+    color:white;
+    padding: .5em 1em;
+    font-weight: bold;
+  }
+  
+  .skip-links a:focus{
+    top: 0;
+  }
+  
+
+/*image styles */
+
+.founder{
+    width: 75%;
+    display: flex;
+    margin: auto;
+    border: 3px solid #B06B29;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .logo{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    border-radius: .5rem;
+  }
+
+      .pastwork{
+        width: 85%;
+        padding-top: 1rem;
+        display: flex;
+        margin: auto;
+      }
+
+      iframe {
+        width: 85%;
+        display: block;
+        margin: 0 auto;
+      }
+
+      .header{
+        width: 75%;
+        display: flex;
+        margin: auto;
+        border-radius: 1rem;
+        border: 3px solid #B06B29;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+      }
+
+      /* form styles */
+
+form {
+    padding: 2rem;
+    border-radius: 5px;
+    width: 90%;
+    margin: 0 auto;
+    color: #F68B1F;
+    display: block;
+  }
+
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  select, input[type="text"], input[type="email"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: .25rem;
+    border: 2px solid black;
+  }
+  
+  .button {
+    background-color: #AA1F24;
+    color: #F68B1F;
+    padding: .5rem 2rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    width: 5%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+  }
+
+.button:hover {
+background-color: #EC1C24;
+color: #FDBB40;
+}
+  
+textarea {
+width: 95%;
+border-radius: 10px;
+}
+
+ 
+@media screen and (min-width: 601px) {
+    p {
+      background-color: #B06B29;
+        padding: 1rem;
+        width: 65%;
+    color: black;
+    }
+
+    
+  .pastwork{
+    width: 65%;
+    padding-top: 1rem;
+    display: flex;
+    margin: auto;
+  }
+    .button {
+        background-color: #AA1F24;
+        color: #F68B1F;
+        padding: .5rem 2rem;
+        border: 2px solid black;
+        border-radius: 2rem;
+        cursor: pointer;
+        text-align: center;
+        display: block;
+        text-decoration: none;
+        width: 3%;
+        display: flex;
+        margin: 2rem auto;
+      }
+
+  .header{
+    width: 65%;
+    display: flex;
+    margin: auto;
+    border-radius: 1rem;
+    border: 3px solid #B06B29;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .founder{
+    width: 55%;
+    display: flex;
+    margin: auto;
+    border: 3px solid #B06B29;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+
+}
+
+
+@media screen and (min-width: 900px) {
+    p {
+    background-color: #B06B29;
+    padding: 1rem;
+    width: 45%;
+    color: black;
+    }
+
+    
+  .founder{
+    width: 40%;
+    display: flex;
+    margin: auto;
+    border: 3px solid #B06B29;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+    
+  .header{
+    width: 45%;
+    display: flex;
+    margin: auto;
+    border-radius: 1rem;
+    border: 3px solid #B06B29;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  
+  .pastwork{
+    width: 40%;
+    padding-top: 1rem;
+    display: flex;
+    margin: auto;
+  }
+
+  
+  .logo{
+    width: 65%;
+    border-radius: .5rem;
+  }
+
+  .founder{
+    width: 45%;
+  }
+
+  
+  .button {
+    background-color: #AA1F24;
+    color: #F68B1F;
+    padding: .5rem 2rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+
+    text-decoration: none;
+    width: 1%;
+    display: flex;
+    margin: 2rem auto;
+  }
+
+.button:hover {
+background-color: #EC1C24;
+color: #FDBB40;
+}
+
+form {
+    padding: 2rem;
+    border-radius: 5px;
+    width: 55%;
+    margin: 0 auto;
+    color: #F68B1F;
+  }
+
+  
+  .carousel {
+    padding: 1rem;
+    display: flex;
+    margin: auto;
+    width: 50%;
+  }
+
+  
+  iframe {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+}
+
+
+    
